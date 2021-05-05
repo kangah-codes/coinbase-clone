@@ -1,23 +1,22 @@
-import logo from "./logo.svg";
 import "./index.css";
+
+// importing components
+import NavBar from "./Components/NavBar";
+import Hero from "./Components/Hero";
+import CoinTable from "./Components/CoinTable";
+import Earn from "./Components/Earn";
+import Portfolio from "./Components/Portfolio";
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
+		<div className="bg-white h-screen">
+			<NavBar />
+			<Hero />
+			<CoinTable />
+			<Earn />
+			<div className="border-b border-gray-600">
+				<Portfolio />
+			</div>
 		</div>
 	);
 }
