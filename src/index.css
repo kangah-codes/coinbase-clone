@@ -1,3 +1,148 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: "Graphik";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikRegular.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikRegularItalic.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: normal;
+	font-weight: 250;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikThin.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: italic;
+	font-weight: 250;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikThinItalic.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: normal;
+	font-weight: 275;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikExtralight.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: italic;
+	font-weight: 275;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikExtralightItalic.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikLight.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikLightItalic.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: normal;
+	font-weight: 500;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikMedium.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: italic;
+	font-weight: 500;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikMediumItalic.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikSemibold.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: italic;
+	font-weight: 600;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikSemiboldItalic.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikBold.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: italic;
+	font-weight: 700;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikBoldItalic.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikBlack.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: italic;
+	font-weight: 900;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikBlackItalic.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: normal;
+	font-weight: 950;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikSuper.woff")
+			format("woff");
+}
+@font-face {
+	font-family: "Graphik";
+	font-style: italic;
+	font-weight: 950;
+	src: local("Graphik"),
+		url("https://fonts.cdnfonts.com/s/27112/GraphikSuperItalic.woff")
+			format("woff");
+}
